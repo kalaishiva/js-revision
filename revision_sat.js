@@ -33,3 +33,24 @@ switch (student) {
         console.log("Hello Hi");
         break;
 }
+
+//Ternary operator
+
+let raining = false;
+
+raining ? console.log("It's raining") : console.log("No Rain");
+
+
+//loops
+//1. for
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+}
+
+//2. while
+let a = 0;
+
+while (a <= 5) {
+    console.log(a);
+    a++;
+}
